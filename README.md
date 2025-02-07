@@ -1,6 +1,6 @@
 # Simulation de Match de Tennis
 
-Ce projet est une application complète de simulation de match de tennis développée dans le cadre d’un test technique pour un emploi. Le code se divise en deux parties : le **Front-end** et le **Back-end**.
+Ce projet est une application complète de simulation de match de tennis. Le code se divise en deux parties : le **Front-end** et le **Back-end**.
 
 ---
 
@@ -23,8 +23,8 @@ Ce projet est une application complète de simulation de match de tennis dévelo
 
 L’application simule un match de tennis en suivant les règles officielles (gestion des jeux, sets, tie-break, etc.).  
 Les principaux cas d’utilisation incluent :
-- La simulation d’un match point par point.
-- L’affichage dynamique du score en temps réel.
+- La simulation d’un match.
+- L’affichage du score.
 - La séparation claire de la logique de jeu (Back-end) et de la présentation (Front-end).
 
 ---
@@ -33,7 +33,7 @@ Les principaux cas d’utilisation incluent :
 
 Le projet suit une architecture **client/serveur** :
 - **Back-end** : Expose des API REST pour la gestion du match et des scores. La logique métier (calcul des scores, gestion des jeux, sets et tie-break) est implémentée en TypeScript.
-- **Front-end** : Une interface utilisateur (ex. réalisée avec React) permettant d’afficher le déroulé du match, les scores, et d’interagir avec l’API pour lancer une simulation ou consulter les résultats.
+- **Front-end** : Une interface utilisateur réalisée avec React permettant d’afficher le déroulé du match, les scores, et d’interagir avec l’API pour lancer une simulation ou consulter les résultats.
 
 ---
 
